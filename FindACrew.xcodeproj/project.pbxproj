@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		9CD7CB752417F0990028E497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7CB742417F0990028E497 /* AppDelegate.swift */; };
 		9CD7CB772417F0990028E497 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7CB762417F0990028E497 /* SceneDelegate.swift */; };
-		9CD7CB792417F0990028E497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7CB782417F0990028E497 /* ViewController.swift */; };
 		9CD7CB7C2417F0990028E497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7CB7A2417F0990028E497 /* Main.storyboard */; };
 		9CD7CB7E2417F09D0028E497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7CB7D2417F09D0028E497 /* Assets.xcassets */; };
 		9CD7CB812417F09D0028E497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7CB7F2417F09D0028E497 /* LaunchScreen.storyboard */; };
+		9CD7CB892417F74D0028E497 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7CB882417F74D0028E497 /* PersonTableViewCell.swift */; };
+		9CD7CB8B2417F7630028E497 /* PersonSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7CB8A2417F7630028E497 /* PersonSearchTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9CD7CB712417F0990028E497 /* FindACrew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindACrew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD7CB742417F0990028E497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CD7CB762417F0990028E497 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CD7CB782417F0990028E497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CD7CB7B2417F0990028E497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CD7CB7D2417F09D0028E497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD7CB802417F09D0028E497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CD7CB822417F09D0028E497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD7CB882417F74D0028E497 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		9CD7CB8A2417F7630028E497 /* PersonSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSearchTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		9CD7CB732417F0990028E497 /* FindACrew */ = {
 			isa = PBXGroup;
 			children = (
-				9CD7CB742417F0990028E497 /* AppDelegate.swift */,
-				9CD7CB762417F0990028E497 /* SceneDelegate.swift */,
-				9CD7CB782417F0990028E497 /* ViewController.swift */,
-				9CD7CB7A2417F0990028E497 /* Main.storyboard */,
+				9CD7CB8F2417F8030028E497 /* Application */,
+				9CD7CB8E2417F7EF0028E497 /* Storyboards */,
+				9CD7CB8D2417F7E00028E497 /* Views */,
+				9CD7CB8C2417F7CB0028E497 /* View Controllers */,
 				9CD7CB7D2417F09D0028E497 /* Assets.xcassets */,
-				9CD7CB7F2417F09D0028E497 /* LaunchScreen.storyboard */,
 				9CD7CB822417F09D0028E497 /* Info.plist */,
 			);
 			path = FindACrew;
+			sourceTree = "<group>";
+		};
+		9CD7CB8C2417F7CB0028E497 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7CB8A2417F7630028E497 /* PersonSearchTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9CD7CB8D2417F7E00028E497 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7CB882417F74D0028E497 /* PersonTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9CD7CB8E2417F7EF0028E497 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7CB7A2417F0990028E497 /* Main.storyboard */,
+				9CD7CB7F2417F09D0028E497 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9CD7CB8F2417F8030028E497 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7CB742417F0990028E497 /* AppDelegate.swift */,
+				9CD7CB762417F0990028E497 /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD7CB792417F0990028E497 /* ViewController.swift in Sources */,
+				9CD7CB8B2417F7630028E497 /* PersonSearchTableViewController.swift in Sources */,
+				9CD7CB892417F74D0028E497 /* PersonTableViewCell.swift in Sources */,
 				9CD7CB752417F0990028E497 /* AppDelegate.swift in Sources */,
 				9CD7CB772417F0990028E497 /* SceneDelegate.swift in Sources */,
 			);
