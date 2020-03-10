@@ -9,7 +9,7 @@
 import Foundation
 
 class PersonController {
-    var people : [Person] = []
+    private(set) var people : [Person] = []
     
     func searchForPeopleWith(searchTerm: String, completion: @escaping () -> Void) {
         let baseURL = URL(string: "https://swapi.co/api/people")!
