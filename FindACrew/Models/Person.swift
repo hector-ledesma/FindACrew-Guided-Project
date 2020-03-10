@@ -19,3 +19,7 @@ struct Person: Codable {
         case birthYear = "birth_year"
     }
 }
+
+struct PersonSearch: Codable {
+    let results: [Person]
+}

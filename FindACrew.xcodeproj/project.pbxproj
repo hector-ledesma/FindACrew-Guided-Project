@@ -15,6 +15,7 @@
 		9CD7CB892417F74D0028E497 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7CB882417F74D0028E497 /* PersonTableViewCell.swift */; };
 		9CD7CB8B2417F7630028E497 /* PersonSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7CB8A2417F7630028E497 /* PersonSearchTableViewController.swift */; };
 		9CD7CB922417F9900028E497 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7CB912417F9900028E497 /* Person.swift */; };
+		9CD7CB942417FF6D0028E497 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7CB932417FF6D0028E497 /* PersonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9CD7CB882417F74D0028E497 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		9CD7CB8A2417F7630028E497 /* PersonSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSearchTableViewController.swift; sourceTree = "<group>"; };
 		9CD7CB912417F9900028E497 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9CD7CB932417FF6D0028E497 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				9CD7CB912417F9900028E497 /* Person.swift */,
+				9CD7CB932417FF6D0028E497 /* PersonController.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				9CD7CB8B2417F7630028E497 /* PersonSearchTableViewController.swift in Sources */,
 				9CD7CB892417F74D0028E497 /* PersonTableViewCell.swift in Sources */,
 				9CD7CB752417F0990028E497 /* AppDelegate.swift in Sources */,
+				9CD7CB942417FF6D0028E497 /* PersonController.swift in Sources */,
 				9CD7CB772417F0990028E497 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
